@@ -10,10 +10,10 @@ class Block {
 
     constructor(id: number, prevBlockHash: string, transaction: Transaction) {
         this.id = id
-        this.hash = this.getHash()
         this.timestamp = Date.now()
         this.transaction = transaction
         this.prevBlockHash = prevBlockHash
+        this.hash = this.getHash()
     }
 
     public getHash(): string {
