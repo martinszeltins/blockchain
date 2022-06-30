@@ -7,7 +7,7 @@ $ npm run app
 
 ### Result
 
-```
+```json
 Blockchain:
 {
   "blocks": [
